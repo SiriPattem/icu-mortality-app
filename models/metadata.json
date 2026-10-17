@@ -1,0 +1,95 @@
+{
+  "app_features": [
+    "GCS_last",
+    "BUN_last",
+    "Age",
+    "GCS_highest",
+    "BUN_first",
+    "Bilirubin_last",
+    "PaO2_first",
+    "Temp_median",
+    "Temp_highest",
+    "Bilirubin_first",
+    "HR_last",
+    "TroponinT_last"
+  ],
+  "info": {
+    "GCS_last": {
+      "label": "Glasgow Coma Scale - last reading",
+      "median": 15.0,
+      "min": 3.0,
+      "max": 15.0
+    },
+    "BUN_last": {
+      "label": "Blood urea nitrogen (BUN) - last reading",
+      "median": 19.0,
+      "min": 3.0,
+      "max": 116.61999999999989
+    },
+    "Age": {
+      "label": "Age (years)",
+      "median": 67.0,
+      "min": 18.0,
+      "max": 90.0
+    },
+    "GCS_highest": {
+      "label": "Glasgow Coma Scale - highest",
+      "median": 15.0,
+      "min": 3.0,
+      "max": 15.0
+    },
+    "BUN_first": {
+      "label": "Blood urea nitrogen (BUN) - first reading",
+      "median": 19.0,
+      "min": 4.0,
+      "max": 127.30999999999995
+    },
+    "Bilirubin_last": {
+      "label": "Bilirubin - last reading",
+      "median": 0.7,
+      "min": 0.1,
+      "max": 30.873000000000047
+    },
+    "PaO2_first": {
+      "label": "Arterial oxygen (PaO2) - first reading",
+      "median": 166.0,
+      "min": 35.68,
+      "max": 488.0
+    },
+    "Temp_median": {
+      "label": "Temperature (\u00b0C) - median",
+      "median": 37.0,
+      "min": 35.5835,
+      "max": 38.6
+    },
+    "Temp_highest": {
+      "label": "Temperature (\u00b0C) - highest",
+      "median": 37.8,
+      "min": 36.3,
+      "max": 40.1
+    },
+    "Bilirubin_first": {
+      "label": "Bilirubin - first reading",
+      "median": 0.7,
+      "min": 0.1,
+      "max": 29.752000000000045
+    },
+    "HR_last": {
+      "label": "Heart rate (bpm) - last reading",
+      "median": 85.0,
+      "min": 47.67,
+      "max": 138.0
+    },
+    "TroponinT_last": {
+      "label": "Troponin T - last reading",
+      "median": 0.12,
+      "min": 0.01,
+      "max": 13.730750000000018
+    }
+  },
+  "threshold": 0.25,
+  "n_patients": 3600,
+  "death_rate": 0.13972222222222222,
+  "test_roc_auc": 0.842,
+  "sklearn_version": "1.7.2"
+}
